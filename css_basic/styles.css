@@ -1,0 +1,46 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    color:black;
+    background-color: beige;
+   }
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: justify; 
+}
+
+
+article {
+    flex: 2; 
+    overflow-y: auto; 
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+}
+
+aside {
+    flex: 1; 
+    overflow-y: auto; 
+}
+
+.works_on_smartphone {
+    flex-direction: column;
+}
+
+.works_on_smartphone main {
+    flex-direction: column;
+}
+
+.works_on_smartphone article, .works_on_smartphone aside {
+    flex: none;
+    width: 100%;
+    overflow-y: auto;
+}
