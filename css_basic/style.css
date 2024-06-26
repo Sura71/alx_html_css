@@ -1,8 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    margin: 0;
+   
 }
 
 main {
@@ -20,4 +19,18 @@ article {
 aside {
     flex: 1; 
     overflow-y: auto; 
+}
+
+.works_on_smartphone {
+    flex-direction: column;
+}
+
+.works_on_smartphone main {
+    flex-direction: column;
+}
+
+.works_on_smartphone article, .works_on_smartphone aside {
+    flex: none;
+    width: 100%;
+    overflow-y: auto;
 }
