@@ -1,0 +1,13 @@
+/* styles.css */
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("font/SourceSansPro-Black.otf") format(Black)
+    url("font/SourceSansPro-BlackIt.otf") format(Blackit)
+    url("font/SourceSansPro-Bold.otf") format(Bold)
+    url("font/SourceSansPro-BoldIt.otf") format(Boldit)
+    url("font/SourceSansPro-It.otf") format(It);
+}
+
+body {
+  font-family: "MyCustomFont", sans-serif;
+}
