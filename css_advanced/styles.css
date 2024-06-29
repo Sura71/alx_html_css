@@ -8,6 +8,144 @@
     url("font/SourceSansPro-It.otf") format(It);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "MyCustomFont", sans-serif;
+  background-image: url(img/Object.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-size: 1200 px 1093 px;
+  color: #fff;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1103.41px;
+  height: 29.46px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+nav {
+  font-size: 15px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+li,
+a {
+  display: block;
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+  font-family: "MyCustomFont", sans-serif;
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+}
+h1 {
+  font-size: 120px;
+  text-align: center;
+  font-family: "MyCustomFont", sans-serif;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: "MyCustomFont", sans-serif;
+  margin-bottom: 50px;
+}
+h3 {
+  font-size: 24px;
+  font-family: "MyCustomFont", sans-serif;
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+p {
+  font-family: "MyCustonFont", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+li a:link {
+  font-size: 12px;
+  color: #fff;
+}
+
+li a:visited {
+  font-size: 12px;
+  color: #fff;
+}
+li a:hover {
+  background-color: chocolate;
+}
+li a:active {
+  background-color: black;
+  font-style: italic;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.span {
+  margin: 0 60px;
+  font-size: 16px;
+  font-weight: bold;
+}
+button {
+  background-color: #c271ff;
+  border-radius: 22px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 15px 30px;
+  color: #fff;
+}
+.button {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+.header-2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.container-img {
+  display: flex;
+  margin-bottom: 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.author-img-head {
+  text-align: center;
+  align-self: center;
+}
+.author-image {
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+.author-paragraph {
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
 }
