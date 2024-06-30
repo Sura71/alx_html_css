@@ -22,7 +22,9 @@ body {
   background-position: top;
   background-size: 1440px 1093px;
   color: #fff;
-  color: black;
+  /* color: black; */
+  flex-direction: column;
+  display: flex;
 }
 .container {
   margin: 0 auto;
@@ -32,12 +34,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1103.41px;
+  width: 1440.41px;
   height: 29.46px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin:
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 120px;
-  margin-top: 50px;
+  margin-top: 30px;
+ padding: 30px 60px;
+  
+  
 }
 
 nav {
@@ -80,12 +86,22 @@ h3 {
   text-align: center;
   margin: 15px 0;
   font-weight: bold;
+  color:#c271ff;
+ 
 }
-
+h4{
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "MyCustomFont",sans-serif;
+  margin: 0 20px;
+  text-align: left;
+  color: #c271ff;
+}
 p {
   font-family: "MyCustonFont", sans-serif;
   font-size: 22px;
   text-align: center;
+  line-height: 1.5;
 }
 li a:link {
   font-size: 12px;
@@ -131,7 +147,7 @@ button {
 }
 .container-img {
   display: flex;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   align-items: center;
   justify-content: center;
   gap: 30px;
@@ -150,6 +166,127 @@ button {
   font-style: italic;
   text-align: center;
 }
+
+
+
+/* MOST viewed */
+.popular{
+  width:1440px;
+   height: 492;
+   margin:60px auto;
+  
+}
+.post-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.Name{
+  font-size: 20px;
+  font-style:normal;
+  font-family: "MyCustomFont", sans-serif;
+  font-weight: bolder;
+  text-align: left;
+}
+.tutorial{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "MyCustomFont", sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  color: #c271ff;
+}
+.popular-image{
+  text-align: left;
+  display: block;
+  
+
+}
+.fa-solid{
+  
+  color: #c271ff;
+
+}
+.fa-star{
+  color:#c271ff;
+  
+}
+
+.star-container{
+  display: flex;
+  font-size: 20px;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 10px;
+  float: left;
+
+}
+.philip-img{
+  display: block;
+  text-align: left;
+  /* margin-bottom: 10px; */
+  width: 50px;
+}
+.for-flx{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 12;
+  
+}
+/* video */
+/* Container for the video thumbnail */
+.video-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the image */
+.video-container img {
+  display: block;
+  width: 100%; /* Make the image responsive */
+}
+
+/* Style for the play button */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(248, 248, 248, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.play-button::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #c271ff;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+/* Optional: Hover effect */
+.play-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+/* quotes css
 section {
   text-align: center;
   width: 1440px;
@@ -162,6 +299,7 @@ section {
   align-items: center;
   padding: 50px 100px;
   gap: 30px;
+  margin-top: 0px;
 }
 blockquote {
   font-size: 20px;
@@ -176,3 +314,60 @@ blockquote {
 .Person {
   text-align: left;
 }
+
+/* membership */
+
+.membership {
+  background-color: #071629;
+  color: #fff;
+  height: 502px;
+  padding: 30px 60px;
+}
+.Free {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.membership p {
+  font-size: 20px;
+}
+.membership button{
+  background-color: #c271ff;
+  font-size: 22px;
+  font-weight: bold;
+  color:white
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+button:link{background-color: #c271ff;
+  font-size: 22px;
+  font-weight: bold;
+  color:white
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+
+}
+button:visited{
+  font-size: 22px;
+  font-weight: bold;
+  color:white
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+button:hover{
+  list-style: solid;
+  color:chocolate;
+}
+.author-head {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.member{
+  margin:30px auto;
+} */
