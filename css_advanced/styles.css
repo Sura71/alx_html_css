@@ -5,8 +5,9 @@
     url("font/SourceSansPro-BlackIt.otf") format(Blackit)
     url("font/SourceSansPro-Bold.otf") format(Bold)
     url("font/SourceSansPro-BoldIt.otf") format(Boldit)
-    url("font/SourceSansPro-It.otf") format(It);
-}
+    url("font/SourceSansPro-It.otf") format(It)
+    url("font/SourceSansPro-ExtraLight.otf")format(Extralight);}
+    
 
 * {
   margin: 0;
@@ -188,6 +189,7 @@ button {
   font-family: "MyCustomFont", sans-serif;
   font-weight: bolder;
   text-align: left;
+  color: #000;
 }
 .tutorial{
   font-size: 20px;
@@ -197,7 +199,7 @@ button {
   text-align: left;
   margin-bottom: 30px;
   margin-top: 0px;
-  color: #c271ff;
+  color: black;
 }
 .popular-image{
   text-align: left;
@@ -371,3 +373,43 @@ button:hover{
 .member{
   margin:30px auto;
 }
+
+
+/* F.A.Q */
+.faq{
+font-size:  60px;
+color:#071629;
+margin: 30px auto;
+font-family: "MyCustomFont",sans-serif;
+font-weight:lighter;
+}
+.last-section{
+  flex-direction: column;
+  display: flex;
+}
+.main-faq{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+ 
+ .paragraphs{
+ color: #000;
+ text-align:justify;
+ font-size: 12px;
+ line-height: 1.5;
+ font-family: "MyCustomFont",sans-serif;
+ display: block;
+ margin: 10px 150px;
+ padding: 10px 40px;
+ font-weight: lighter ;
+ }
+ 
+ 
+  .how{
+    color: #000;
+    margin: 10px auto;
+  }
+ 
