@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Sources sans pro", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: white;
+}
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+/* ************************ */
+.footers {
+  margin-top: 4.8rem;
+  background-color: #071629;
+}
+.section-foot {
+  padding: 0.8rem 1.6rem;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.445);
+}
+.i-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.fa-brands {
+  text-align: center;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: white;
+  padding: 0.4rem 0.4rem;
+  border-radius: 50px;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+  color: #071629;
+}
+@media (max-width: 44em) {
+}
+
+@media (max-width: 34em) {
+  .i-brand: 1.2rem;
+}
