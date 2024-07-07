@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Sources sans pro", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+}
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 1.2rem 2.4rem;
+}
+/* **************************** */
+/* ****************************** */
+.section-result {
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+  margin-bottom: 9.6rem;
+}
+.heading-secondary {
+  margin-top: 4.8rem;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 8.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+.result-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 9.6rem;
+}
+.icon-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 8.4rem;
+}
+
+.img {
+  height: 20rem;
+}
+.icons-1 {
+  position: relative;
+}
+.icons-2 {
+  position: relative;
+}
+.icons-3 {
+  position: relative;
+}
+.icons-4 {
+  position: relative;
+}
+
+.icons--1::before {
+  content: "lorem epsum";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+}
+.icons--2::before {
+  content: "lorem espum ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+}
+
+.icons--3::before {
+  content: "lorem epsum";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+}
+.icons--4::before {
+  content: "lorem epsum";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+}
+
+.icons--1::after {
+  content: "+2%";
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.icons--2::after {
+  content: "+2%";
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.icons--3::after {
+  content: "+2%";
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.icons--4::after {
+  content: "+2%";
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: -1rem;
+}
